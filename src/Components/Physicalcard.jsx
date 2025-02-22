@@ -1,9 +1,10 @@
 import React from 'react'
 import physicalcard from '../assets/images/physical.png';
+import Cardheader from './Cardheader';
 const Physicalcard = () => {
   return (
     <div>
-      
+      <Cardheader />
       <div  className=' mt-2 flex justify-center'><img src={physicalcard} alt="" width={200} /></div>
         <div className='flex justify-center mt-12 font-bold text-2xl '>Physical Card</div>
         <div className='flex justify-center text-gray-500'><p className='flex'>Tap and Pay ATM withdrawal </p></div>
