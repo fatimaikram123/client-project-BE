@@ -2,7 +2,6 @@ import React from 'react';
 import virtualcard from '../assets/images/virtualcard.png';
 import wifi from '../assets/images/wifi.png';
 import custom from '../assets/images/custom.png';
-
 const Cardone = () => {
   return <div> <div  className=' mt-2 flex justify-center'><img src={virtualcard} alt="" width={200} /></div>
   <div className='flex justify-center '><div className='bg-yellow-100 h-10 w-40 rounded-2xl gap-4  flex justify-center items-center hover:cursor-pointer'> <img src={custom} width={30} alt="" />Customizable</div>
