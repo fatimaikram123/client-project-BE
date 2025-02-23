@@ -6,6 +6,7 @@ import eth from '../assets/images/eth.png';
 import usd from '../assets/images/usd.png';
 import leftarrow from '../assets/images/leftarrow.png';
 import history from '../assets/images/history.png';
+import { NavLink } from 'react-router-dom';
 
 
 const Currency = () => {
@@ -13,7 +14,11 @@ const Currency = () => {
     <div>
       <header className="w-full h-15  content-center ">
       <div className='flex justify-between'>
-        <div className='pl-10 pt-2  max-sm:pl-2'><img className='max-sm:w-7' src={leftarrow} alt="" /></div>
+      <NavLink
+            to="/"
+          >
+       <div className='pl-10 pt-2  max-sm:pl-2'><img className='max-sm:w-7' src={leftarrow} alt="" /></div>
+          </NavLink>
         <div className='pr-10 pt-2  max-sm:pr-2'><img className='max-sm:w-7' src={history} alt="" /></div>
       </div>
       </header>

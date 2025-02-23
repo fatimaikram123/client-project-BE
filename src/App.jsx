@@ -5,6 +5,7 @@ import Homebuttom from './Components/Homebuttom';
 import Cardone from './Components/Virtualcard';
 import Physicalcard from './Components/Physicalcard';
 import Cardheader from './Components/Cardheader';
+import Currency from './Components/Currency';
 const App = () => {
   return (
     <>
@@ -14,6 +15,7 @@ const App = () => {
     <Route path='/card'  element={<Cardheader/>}  />
     <Route path='/virtual-card'  element={<Cardone/>}  />
     <Route path='/physical-card' element={<Physicalcard />}  />
+    <Route path='/currency' element={<Currency />}  />
       </Routes>
      
        </>
