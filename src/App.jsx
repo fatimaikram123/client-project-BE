@@ -6,6 +6,7 @@ import Cardone from './Components/Virtualcard';
 import Physicalcard from './Components/Physicalcard';
 import Cardheader from './Components/Cardheader';
 import Currency from './Components/Currency';
+import Deposit from './Components/Deposit';
 const App = () => {
   return (
     <>
@@ -16,6 +17,7 @@ const App = () => {
     <Route path='/virtual-card'  element={<Cardone/>}  />
     <Route path='/physical-card' element={<Physicalcard />}  />
     <Route path='/currency' element={<Currency />}  />
+    <Route path='/deposit' element={<Deposit />}  />
       </Routes>
      
        </>
