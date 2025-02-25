@@ -9,7 +9,7 @@ const Homesection2 = () => {
       
     </div>
     <div className='w-full flex justify-center mt-5'>
-    <div className='border w-300 h-55 rounded-2xl'>
+    <div className='border w-300 h-50 max-sm:w-70 rounded-2xl'>
         </div></div>
     </div>
   

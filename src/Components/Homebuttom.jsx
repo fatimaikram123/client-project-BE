@@ -47,7 +47,7 @@ const Homebuttom = () => {
   <div className="text-[10px]">Card</div>
 </NavLink>
         </li>
-        <li className='hover:cursor-pointer'><img src={benifits} width={20} alt="" /></li>
+        <li className='hover:cursor-pointer flex justify-center items-center'><img src={benifits} width={23} alt="" /></li>
         <li>Hub</li>
         </ul>
       </div>

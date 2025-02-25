@@ -4,6 +4,7 @@ import history from '../assets/images/history.png';
 import QR from '../assets/images/QR.jpg';
 import { NavLink } from 'react-router-dom';
 import copy from '../assets/images/copy.png';
+import error from '../assets/images/error.png';
 
 
 const Deposit = () => {
@@ -36,14 +37,14 @@ const Deposit = () => {
 
       {/* Main Content Section */}
       <section>
-        <div className="flex justify-center text-gray-500 mt-10">Network</div>
-        <div className="flex justify-center text-black mt-2">Tron(TRC20)</div>
+        <div className="flex justify-center text-gray-500 mt-5">Network</div>
+        <div className="flex justify-center text-black mt-1">Tron(TRC20)</div>
         <div className="flex justify-center">
           <img src={QR} alt="QR Code" width={220} />
         </div>
 
         {/* Copyable Text Section */}
-        <div className="flex justify-center mt-5">
+        <div className="flex justify-center mt-3">
           <div className="bg-gray-300 flex justify-between max-sm:w-70 w-150 h-15 items-center border rounded-2xl px-4 py-2">
             <span className="truncate  max-sm:text-xs">{textToCopy}</span>
             <button
@@ -70,6 +71,9 @@ const Deposit = () => {
     </div>
    </div>
       </section>
+      <div className='flex justify-center w-full'><div className='bg-orange-200 mt-2 rounded-3xl flex items-center max-sm:text-[8px]'><img src={error} width={20} alt="" />The current address only support depositing USDT on Tron(TRC20) depositing other assets will result in loss</div></div>
+      <div className='flex justify-center'> <div  className='bg-[#0e024f] text-white mt-2 w-100 h-15 rounded-4xl flex justify-center items-center hover:cursor-pointer' >Share</div>
+      </div>
     </div>
   );
 };
