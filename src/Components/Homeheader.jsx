@@ -6,7 +6,12 @@ import notification from '../assets/images/notification.png';
 const Homeheader = () => {
   return (
     <div className='bg-white m-0 p-0 w-full h-10 flex justify-between items-center'>
-      <div><img src={User} width={35} alt="" /></div>
+        <NavLink
+                  to="/profile"
+                >
+              <div><img src={User} width={35} alt="" /></div>
+                </NavLink>
+
       <div className='font-bold text-3xl'>RedotPay</div>
       <div className='flex gap-5 items-center'>
         <div className='hover:cursor-pointer' ><img src={gift} width={25} alt="" /></div>

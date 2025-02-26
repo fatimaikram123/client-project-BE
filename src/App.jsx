@@ -7,6 +7,8 @@ import Physicalcard from './Components/Physicalcard';
 import Cardheader from './Components/Cardheader';
 import Currency from './Components/Currency';
 import Deposit from './Components/Deposit';
+import Profile from './Components/Profile';
+import Setting from './Components/Setting';
 const App = () => {
   return (
     <>
@@ -18,8 +20,9 @@ const App = () => {
     <Route path='/physical-card' element={<Physicalcard />}  />
     <Route path='/currency' element={<Currency />}  />
     <Route path='/deposit' element={<Deposit />}  />
+    <Route path='/profile' element={<Profile />}  />
+    <Route path='/settings' element={<Setting />}  />
       </Routes>
-     
        </>
      
     

@@ -14,8 +14,6 @@ const Homeverify = () => {
          to="/card">
         <div className='bg-white  w-20 rounded-2xl flex justify-center mr-5 max-sm:mr-1 hover:cursor-pointer ' >Apply</div>
         </NavLink>
-        
-       
       </div>
     </div>
   )
