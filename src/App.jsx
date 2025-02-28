@@ -9,6 +9,9 @@ import Currency from './Components/Currency';
 import Deposit from './Components/Deposit';
 import Profile from './Components/Profile';
 import Setting from './Components/Setting';
+import Hub from './Components/Hub';
+import Community from './Components/Community';
+
 const App = () => {
   return (
     <>
@@ -22,6 +25,10 @@ const App = () => {
     <Route path='/deposit' element={<Deposit />}  />
     <Route path='/profile' element={<Profile />}  />
     <Route path='/settings' element={<Setting />}  />
+    <Route path='/hub' element={<Hub />}  />
+    <Route path='/community' element={<Community />}  />
+  
+   
       </Routes>
        </>
      

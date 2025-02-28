@@ -16,8 +16,6 @@ const Setting = () => {
                   </div>
                 </NavLink>
               </div>
-        
-       
       </div>
 
       <div className="mt-5">
