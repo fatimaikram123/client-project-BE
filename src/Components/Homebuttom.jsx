@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import home from '../assets/images/home.png';
 import card from '../assets/images/card.png';
 import benifits from '../assets/images/benifits.png';
+import hub from '../assets/images/hub.png';
 const Homebuttom = () => {
   return (
    
@@ -68,7 +69,7 @@ const Homebuttom = () => {
 >
   <div className="flex justify-center">
     <img
-      src={card}
+      src={hub}
       width={20}
       alt="card"
       className={({ isActive }) => (isActive ? "filter-none" : "opacity-50")}
